@@ -1,14 +1,13 @@
 {% set name = "distarray" %}
-{% set version = "2.8" %}
+{% set version = "2.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-distarray-{{ version }}.tar.gz
-  url: https://github.com/UV-CDAT/distarray/archive/master.tar.gz
-  sha256: 59c6de02b34b625595d7d327a3d016ad8587b273cdcdc9476ab40fda0baa479a
+  url: https://github.com/UV-CDAT/distarray/archive/v2.10.tar.gz
+  sha256: df5fa1a4e49bbecf0a6a9b0e5d3da3aab62f8e1fc19eedfca2a5d739775b1017
 
 build:
   number: 0
